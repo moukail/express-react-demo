@@ -3,9 +3,9 @@ set -e
 
 echo "---> Installing dependencies..."
 cd /tmp/src
-ls -al
+npm install
 
 echo "---> Copying app to /opt/app-root/src..."
-ls -al /opt/app-root/src/
+cp -r /tmp/src/. /opt/app-root/src/
 
 echo "---> Build complete."

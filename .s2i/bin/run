@@ -2,8 +2,5 @@
 set -e
 
 echo "---> Starting Express app..."
-ls -al /tmp/src
-
 cd /opt/app-root/src/
-ls -al
 npm start
